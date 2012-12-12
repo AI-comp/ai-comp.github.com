@@ -1,0 +1,44 @@
+@charset "utf-8"
+
+body {
+  font:100%/1.4 sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background: #95703b;
+}
+
+ul {
+
+
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.menu a {
+  display: block;
+  border: 1px solid #474655;
+  background-color : #ffffff;
+  font-size: x-small;
+  padding: 3px;
+  text-decoration: none;
+  color: #303030;
+  width: 100px;
+  margin: 1px;
+  text-align: center;
+}
+.menu a:hover {
+  background-color: #BF5E5E;
+  color #ffffff;
+}
