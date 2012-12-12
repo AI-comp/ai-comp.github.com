@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'Computer Love';
+  src: url('../fonts/COMPUTER LOVE.ttf');
+}
+
+div#description {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+div#description h1 {
+  display: none;
+  font-size: 64px;
+  color: #c31775;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Computer Love', serif;
+}
+div#description p {
+  font-size: 24px;
+  font-family:'Hiragino Mincho ProN', serif;
+}
+
+div.box h1 {
+  font-size: 96px;
+  color: #c31775;
+  margin: 240px auto 10px auto;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Computer Love', serif;
+}
+
+div.box h2{
+  font-size: 32px;
+  font-family: 'Computer Love', serif;
+  margin: 10px auto;
+}
+
+#logo {
+  width: 100%;
+  margin: 0px auto 30px auto;
+}
+
+div.box {
+  position: relative;
+  padding: 10px;
+  top: 0px;
+  width: 80%;
+  margin: 0 auto;
+  display: none;
+}
+
+div.compact {
+  text-align: center;
+}
+
+div.date {
+  margin: auto;
+  text-align: left;
+}
+
+div#schedule-content {
+  width: 250px;
+}
+
+div#news {
+  width: 500px;
+}
+
+div.expand {
+  display: none;
+  font-size: 14px;
+}
+
+p span.date {
+  font-weight: bold;
+}
+
+ul#menu {
+  margin: 20px auto 10px auto;
+  width: 800px;
+  padding: 0px;
+  text-align: center;
+  display: -webkit-box;
+  display: box;
+  display: -ms-flexbox;
+}
+
+li.menu {
+  font-size: 32px;
+  text-align: center;
+  margin: 20px;
+  height: 40px;
+  list-style-type: none;
+  font-family: 'Computer Love', serif;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -moz-box;
+}
+
+.box a {
+  color: #c31775;
+  text-decoration: none;
+}
+.box a:hover {
+  text-decoration: underline;
+}
+
+#menu a {
+  color: #080808;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: #c31775;
+}
+
+h1 a {
+  color: #c31775;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+}
+
+div#screenshots img {
+  margin: 20px;
+}

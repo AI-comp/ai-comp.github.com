@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel=stylesheet type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600' rel='stylesheet' type='text/css'>
+    <title>CEDEC 2013 AI CHALLENGE</title>
+  </head>
+
+  <body class='cedec2013'>
+    <div class="page">
+      <header>
+      <h1>CEDEC 2013 AI CHALLENGE</h1>
+      </header>
+      <div id='contents'>
+        <div id='menu'><script src='js/menu.js'></script></div>
+        <div id='main'>
+          
+          <section id='downloads'>
+          <h2>DOWNLOADS</h2>
+          
+          <p>ゲーム本体はこちらからダウンロード出来ます。</p>
+          <p><a href="https://github.com/AI-comp/Terraforming/releases/download/v1.0.9/Terraforming-1.0.9.zip">ゲーム本体(正式版) Version 1.0.9</a></p>
+          
+          <p>この他、ブラウザ上で体験出来るアプレット版を公開しています</p>
+          <ul>
+            <li><a href="applet/user1.html">アプレット版（1人プレイヤーモード）</a></li>
+            <li><a href="applet/user2.html">アプレット版（2人プレイヤーモード）</a></li>
+            <li><a href="applet/user3.html">アプレット版（3人プレイヤーモード）</a></li>
+          </ul>
+          <p>現在、アプレット版ではウィンドウを閉じる際にエラーが出る問題が確認されています。</p>
+          </section>
+
+          <section id='changelogs'>
+          <h2>CHANGES</h2>
+          <ul>
+            <li>2013/08/25 Version 1.0.9</li>
+            ロボットの移動量を負の値にするとロボットが増えるバグを修正v
+            リプレイ機能を追加（-pオプションで指定した.repファイルを再生）。
+            詳細は起動時の-hオプションで表示されるヘルプを御覧ください。
+            リプレイファイルなどの名前で一桁の数字も二桁になるようパディングを追加。
+            <li>2013/08/08 Version 1.0.8</li>
+            Maven, SBT の簡易サンプルAIを追加。
+            内部的な修正（試合結果の出力方法を変更，リプレイのJSONデータの改善）。
+            <li>2013/08/04 Version 1.0.7</li>
+            ネット対戦用のWebサイトで動作するようにサンプルAIを修正。
+            C#, Ruby, Python, PHP の簡易サンプルAIを追加。
+            <li>2013/08/03 Version 1.0.6</li>
+            ネット対戦のためにカレントディレクトリを指定して実行する-wオプションを追加。
+            <li>2013/08/03 Version 1.0.5</li>
+            ネット対戦のWebサイトオープン( http://ai-comp.ddo.jp/ )！
+            ユーザ，AIプログラム，内部AIプログラムの3者が対戦するスクリプトを追加。
+            掘削機のコストが20であったのをルールブックどおりに25に修正。
+            <li>2013/07/21 Version 1.0.4</li>
+            街が穴に対しても家を建造してしまうバグを修正。
+            AIプログラムの入出力における攻撃塔の表現を「attack」から「tower」に変更。
+            ドキュメント中の「建物」という表記をを「基地」に統一。
+            ドキュメントの加筆・修正，予選と決勝に関する情報を追記。
+            ログファイルを出力しないオプション(-s)を追加。
+            ターンの最初の状態に戻すresetコマンドを追加。
+            マップの初期画面とゲーム終了時の画面のみ描画するオプション(-r)を追加。
+            アプレット終了時にエラーを吐かないように修正。
+            ドキュメントの加筆・修正。
+            <li>2013/07/16 Version 1.0.2</li>
+            メッセージ中のプレイヤー番号が0から2であったのを1から3に修正。
+            <li>2013/07/15 Version 1.0.1</li>
+            画面描画のバグ修正、ゲーム中の文言を修正。
+            Haskellのサンプルプログラムを再追加。
+            ドキュメントの修正。
+            アプレット版の改良。
+            <li>2013/07/14 Version 1.0.0</li>
+            画面描画の改善、画面描画を簡略化・高速化するオプション(-l)を追加。
+            AIプログラムに出力する各マスの情報について、4種類の地形情報を追加。
+            ゲームバランス調整のために建物に関するルールを変更、シールドの削除。
+            マップ生成アルゴリズムの改良。
+            <li>2013/07/11 Version 0.8.0</li>
+            画面描画の改善。
+            生成するログファイルの種類を増加。
+            ログファイルが大きくなりすぎる問題を改善。
+            AIプログラムに出力する資源（マテリアル）情報について、相手が所有するマスのマテリアル情報も出力するように修正。
+            ゲームバランス調整のために建物に関するルールを変更（主に得点系の建物と防御塔）。
+            攻撃塔が自分のロボットを攻撃するバグを修正。
+            マップ生成アルゴリズムの修正。
+            アプレット版の作成。
+            <li>2013/07/08 Version 0.6.5</li>
+            C++, Haskell, Scalaの非常に簡易的なサンプルAIプログラムを追加。
+            JavaのサンプルAIプログラムのパッケージ名を修正。
+            起動用スクリプトの追加。ルールドキュメントの修正。
+            <li>2013/07/07 Version 0.5.0</li>
+            プロトタイプ版の初リリース。
+          </ul>
+          </section>
+
+        </div>
+      </div>
+
+      <div class="clear"><hr /></div>
+
+      <footer>
+      <p>Copyright © <a href="http://www.ai-comp.net/">AI-COMP</a> All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
+

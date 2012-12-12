@@ -1,0 +1,135 @@
+<h2>Results</h2>
+<h3>予選</h3>
+<p><a href="http://arena.ai-comp.net/contests/2">順位表</a> - 予選終了後に一部対戦が起こっておりますが、決勝進出者の選定には影響しません。ご了承ください。</p>
+<p>以下の16名が<a href='http://cedec.cesa.or.jp/2014/session/ENG/13108.html'>CEDECセッション</a>にて行われる決勝へ進出しました。</p>
+<p>表に情報を追加したい方は、Twitterやメールでご連絡頂くか、<a href='https://github.com/AI-comp/ai-comp.github.com'>GitHubのリポジトリ</a>にPull Requestをお送り頂ければ幸いです。</p>
+<table border='1' cellspacing='0' cellpadding='3' align='center' width='80%'>
+  <tr>
+    <th>お名前
+    <th>Twitter
+    <th>ブログ記事など
+  <tr>
+    <td>Hino
+    <td>
+    <td>
+  <tr>
+    <td>udon
+    <td>
+    <td>
+  <tr>
+    <td>sash
+    <td>
+    <td>
+  <tr>
+    <td>.
+    <td>
+    <td>
+  <tr>
+    <td>moko
+    <td>
+    <td>
+  <tr>
+    <td>Eiza
+    <td>
+    <td>
+  <tr>
+    <td>muupan
+    <td>
+    <td>
+  <tr>
+    <td>ishikado
+    <td>
+    <td>
+  <tr>
+    <td>ThreeStones
+    <td>
+    <td>
+  <tr>
+    <td>fuzuir
+    <td><a href='https://twitter.com/frfrfrfrpro'>@frfrfrfrpro</a>
+    <td><a href='http://frfrfrfr.hatenablog.com/entry/2014/09/22/231336'>Blog</a>
+  <tr>
+    <td>muchinjousya
+    <td>
+    <td>
+  <tr>
+    <td>r_kuzumi
+    <td>
+    <td>
+  <tr>
+    <td>hikikomori@uec
+    <td>
+    <td>
+  <tr>
+    <td>puyokw
+    <td>
+    <td>
+  <tr>
+    <td>warusun
+    <td>
+    <td>
+  <tr>
+    <td>dekokun
+    <td><a href='https://twitter.com/dekokun'>@dekokun</a>
+    <td><a href='http://dekokun.github.io/posts/2014-09-07.html'>Blog</a>,
+      <a href='https://github.com/dekokun/CEDECAI'>GitHub</a>
+</table>
+
+<h3>決勝</h3>
+<img src="img/finals_tournament.png">
+<ul>
+  <li><a href="http://arena.ai-comp.net/contests/3/battle_results/13169">第1試合</a> : ishikado - dekokun - puyokw - sash
+  <li><a href="http://arena.ai-comp.net/contests/3/battle_results/13170">第2試合</a> : muupan - hikikomori@uec - ThreeStones - Eiza
+  <li><a href="http://arena.ai-comp.net/contests/3/battle_results/13171">第3試合</a> : r_kuzumi - . - udon - Hino
+  <li><a href="http://arena.ai-comp.net/contests/3/battle_results/13172">第4試合</a> : fuzuir - warusun - muchinjousya - moko
+  <li><a href="http://arena.ai-comp.net/contests/3/battle_results/13173">最終試合</a> : dekokun - moko - r_kuzumi - Eiza
+</ul>
+
+<h2>Schedule</h2>
+<p><span class='date'>2014/08/17</span> 予選用プログラム締切</p>
+<p><span class='date'>2014/08/19</span> 予選結果発表</p>
+<p><span class='date'>2014/09/01</span> 決勝用プログラム締切</p>
+<p><span class='date'>2014/09/04</span> 決勝</p>
+
+<h2>Contest Rules</h2>
+<p>CEDEC AI Challenge 2014では、<a href='http://arena.ai-comp.net/'>AI-COMP Contest Server</a>上で行われる予選を勝ち抜いた16名が、CEDECにて行われる決勝への出場権を獲得します。
+
+<h3>コンテストへの参加方法</h3>
+<a href='http://arena.ai-comp.net/'>AI-COMP Contest Server</a>でユーザー登録を行い、AIを投稿すれば、コンテストへ参加できます。
+
+<h3>予選</h3>
+<p>予選は、2014/08/17のプログラム投稿締切後、AI-COMP Contest Server上で行われます。</p>
+<p>各参加者がContest Serverにて投稿したAIプログラムのうち、最後に投稿したAIプログラムが予選に使用されます。</p>
+<p>全体で多数の対戦を行い、成績に応じて各AIのレーティングを計算して、レーティングの高い上位16名を決勝進出とします。具体的手順は以下の通りです。</p>
+<ol>
+  <li>AIプログラムの数が4の倍数でない場合、不足分をダミーAIプログラムで補填する。
+  <li>各AIプログラムのレーティングを0に設定する。
+  <li>全体をAIプログラム4個ずつにランダムに分ける。
+  <li>4個のAIプログラムごとに1ゲーム行う。
+  <li>各AIプログラムのレーティングを更新する。
+  <li>3から5を50回繰り返す。
+</ol>
+
+<a href='#contest' class='expand'>レーティング方式について</a>
+<div class='expand'>
+  <p>本ゲームで使用するレーティング方式は、ELOレーティングに従います。ただし、オリジナルのELOレーティングは1対1での対戦を想定しているため、本ゲーム用に拡張したものを使用します。</p>
+  <ul>
+    <li>勝者が存在する場合
+      <ol>
+        <li>勝者をA、敗者をそれぞれB、C、Dとする。
+        <li>「A対B」、「A対C」、「A対D」の3ゲームが行われ、それぞれAが勝利したものとしてレーティングを更新する。また、「B対C」、「B対D」、「C対D」の3ゲームが行われ、それぞれ引き分けたものとしてレーティングを更新する。なお、手順2のレーティングの更新は全て同時に行われる。
+      </ol>
+    <li>ゲームが引き分けた場合
+      <ol>
+        <li>プレイヤーをそれぞれA、B、C、Dとする。
+        <li>「A対B」、「A対C」、「A対D」、「B対C」、「B対D」、「C対D」の6ゲームが行われ、それぞれ引き分けたものとしてレーティングを更新する。なお、手順2のレーティングの更新は全て同時に行われる。
+      </ol>
+  </ul>
+</div>
+
+<h3>決勝</h3>
+<p>決勝は、9/4にCEDECにて開催される<a href='http://cedec.cesa.or.jp/2014/session/ENG/13108.html'>セッション</a>で行われます。決勝進出者にはCEDECのスタッフパス（CEDEC AI Challenge 2014のみに入場可能なチケット）を送付いたします。
+Contest Serverに登録されているメールアドレスにスタッフパス送付先のお名前・ご住所等を伺いますので、メールを受け取ったらご返信ください。</p>
+<p>決勝に使用するプログラムは、Contest Server上の「<a href="http://arena.ai-comp.net/contests/1">CEDEC AI Challenge 2014</a>」にて決勝用プログラム締切までに投稿したAIプログラムのうち、最後に投稿したAIプログラムとなります。</p>
+<p>決勝ではトーナメント形式で勝者を決定します。トーナメントの組み合わせはランダムに決定します。
+各試合とも1本先取とし、ゲームに勝利した1名が勝ち上がります。</p>
