@@ -55,16 +55,29 @@ table {
   color : #310;
 }
 
-td {
+tr {
   padding : 5px;
   border : 1px solid;
   color : #310;
 }
 
-tr {
-  padding : 5px;
-  border : 1px solid;
-  color : #310;
+td {
+  padding :2px 10px;
+  border : #310 1px solid;
+  color : #000;
+  background : #eed;
+}
+
+td#qualify{
+  background : #fea;
+}
+
+th {
+  font-family: 'Keania One', cursive;
+  padding :2px 10px;
+  border : #310 1px solid;
+  color : #fb9;
+  background : #310;
 }
 
 a:link {color:#420;}
