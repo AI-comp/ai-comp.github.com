@@ -5,12 +5,62 @@ body {
   margin: 0;
   padding: 0;
   color: #000;
-  background: #95703b;
+  background: #FFF;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Prosto One', cursive;
+  color: #142542;
+}
+
+h1 {
+  margin : 0;
+  color: #FFF;
+  text-align : center;
+  font-size: 400%;
+}
+
+h2{
+  font-size: 200%;
+}
+
+h3{
+  font-size: 150%;
+}
+
+h4{
+  font-size: 120%;
+}
+
+h4{
+  font-size: 100%;
 }
 
 ul {
 
+}
 
+.page{
+  width: 800px;
+  margin:20px auto;
+  padding:0 20px 0 20px;
+  border: 3px solid #142545;
+  background: #FFF;
+}
+
+header {
+  margin:20px auto;
+  width: 800px;
+  background : #142545;
+  position:relative;
+}
+
+footer {
+  margin : 0 -20px -18px -19px;
+  padding : 0;
+  background : #142545;
+  color : #fff;
+  text-align : center;
 }
 
 .menu ul {
@@ -42,3 +92,4 @@ ul {
   background-color: #BF5E5E;
   color #ffffff;
 }
+
