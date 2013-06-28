@@ -1,21 +1,24 @@
 @charset "utf-8";
 
-body {
+body{
+  width: 100%;
+  background: url('../img/background.png');
   font:100%/1.4 sans-serif;
   margin: 0;
+  position: absolute;
+  top 0px;
+  left: 0;
   padding: 0;
-  color: #000;
-  background: url('../img/background.png');
 }
 
 h1,h2,h3,h4,h5{
-  font-family: 'Prosto One', cursive;
-  color: #142542;
+  font-family: 'Titillium Web', sans-serif; 
+  color: #990000;
 }
 
 h1 {
   margin : 0;
-  color: #FFF;
+  color: #990000;
   text-align : center;
   font-size: 400%;
 }
@@ -41,26 +44,39 @@ ul {
 }
 
 .contents{
+  background: #fff;
   width: 800px;
   margin:20px auto;
-  padding:0 20px 0 20px;
-  border: 3px solid #142545;
-  background: #FFF;
+  padding:0 20px 20px 20px;
+  border-width:2px;
+  border-style:dashed;
+  border-color:#990000;
 }
 
 header {
   margin:20px auto;
-  width: 800px;
-  background : #142545;
+  position:relative;
+}
+
+#header-img{
+  margin: auto;
+  text-align : center;
   position:relative;
 }
 
 footer {
   margin : 0 -20px -18px -19px;
   padding : 0;
-  background : #142545;
-  color : #fff;
+  background : #FFF;
+  color : #000;
   text-align : center;
+}
+
+#schedule td#date {
+  font-weight:bold;
+}
+#schedule td{
+  padding: 0 10px;
 }
 
 .menu ul {
