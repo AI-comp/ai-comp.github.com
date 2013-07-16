@@ -35,17 +35,13 @@ h4{
   font-size: 120%;
 }
 
-h4{
+h5{
   font-size: 100%;
 }
 
-ul {
-
-}
-
-.contents{
+.page{
   background: #fff;
-  width: 800px;
+  width: 850px;
   margin:20px auto;
   padding:0 20px 20px 20px;
   border-width:2px;
@@ -75,37 +71,64 @@ footer {
 #schedule td#date {
   font-weight:bold;
 }
+
 #schedule td{
   padding: 0 10px;
 }
 
-.menu ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+#menu{
+  float:left;
+  width:250px;
+  height: auto;
+  font-family: 'Titillium Web', sans-serif; 
+  color: #990000;
+  margin: 30px 0;
 }
 
-.menu li {
-  display: inline;
+#main{
+  float:right;
+  width:550px;
+  margin: 0 20px;
+}
+.clear{ clear:both;}
+.clear hr {display:none;}
+
+#twitter{
+  width: 250px;
+  height: 450px;
+  padding: 0;
+  margin: 0;
+}
+
+#menu ul {
+  width: 200px;
+  height: 150px;
+  margin: 20px 0;
+  list-style: none;
+  
+  padding:0 20px 20px 20px;
+  border-width:2px;
+  border-style:dashed;
+  border-color:#990000;
+}
+
+#menu li {
+  font-size:150%;
   padding: 0;
   margin: 0;
   float: left;
 }
 
-.menu a {
+#menu a {
   display: block;
-  border: 1px solid #474655;
   background-color : #ffffff;
-  font-size: x-small;
   padding: 3px;
   text-decoration: none;
-  color: #303030;
-  width: 100px;
+  color: #990000;
+  width: 200px;
   margin: 1px;
-  text-align: center;
 }
-.menu a:hover {
-  background-color: #BF5E5E;
-  color #ffffff;
+
+#menu a:hover {
 }
 
