@@ -110,7 +110,7 @@ footer {
 
 #menu ul {
   width: 200px;
-  height: 150px;
+  height: 185px;
   margin: 20px 0;
   
   padding:0 25px 20px 20px;
@@ -120,7 +120,6 @@ footer {
   
   list-style-type: none;
   list-style-image: url('../img/none.png');
-
 }
 
 #menu li {
