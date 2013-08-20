@@ -31,7 +31,7 @@ httpRequest.addEventListener("load", (function(event) {
       text += "</tr>";
     }
     text += "</table>";
-    document.body.innerHTML = text;
+    document.getElementById("main").innerHTML = text;
     return httpRequest = null;
   }
 }));
