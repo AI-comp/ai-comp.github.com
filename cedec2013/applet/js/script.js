@@ -27,7 +27,7 @@ httpRequest.addEventListener("load", (function(event) {
       }
       text += "<td>" + game.scores[rank[0]] + " / " + game.scores[rank[1]] + " / " + game.scores[rank[2]] + "</td>";
       var f = result[index].file
-      text += "<td><a href='./" + f.substring(f.indexOf("/"), f.indexOf(".")) + ".html'>" + f + "</a></td>";
+      text += "<td><a href='" + f.substring(f.indexOf("/") + 1, f.indexOf(".")) + ".html'>" + f + "</a></td>";
       text += "</tr>";
     }
     text += "</table>";
