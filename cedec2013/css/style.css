@@ -99,15 +99,21 @@ footer {
   margin: 0;
 }
 
+.twitter-timeline{
+  float: left;
+}
+
 #result{
   width: 250px;
   height: auto;
   padding: 0;
   margin: 20px;
+  float: left;
 }
 
 #script{
   width:800px;
+  float: left;
   font-family: 'Titillium Web', sans-serif; 
   margin: 30px 0;
 }
