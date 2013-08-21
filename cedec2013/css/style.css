@@ -99,6 +99,13 @@ footer {
   margin: 0;
 }
 
+#result{
+  width: 250px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
 #script{
   float:left;
   width:800px;
