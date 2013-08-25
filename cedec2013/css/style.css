@@ -64,7 +64,7 @@ header {
   position:relative;
 }
 
-footer {
+Gfooter {
   margin : 0 -20px -18px -19px;
   padding : 0;
   background : #FFF;
@@ -121,7 +121,7 @@ footer {
 
 #menu ul {
   width: 200px;
-  height: 232px;
+  height: 270px;
   margin: 20px 0;
   
   padding:0 25px 20px 20px;
@@ -174,4 +174,10 @@ table.result td{
 table.result td.name{
   text-align: left;
 }
-
+table.result td.top_name{
+  background-color: #ffd700;
+  text-align: left;
+}
+table.result td.top{
+  background-color: #ffd700;
+}
