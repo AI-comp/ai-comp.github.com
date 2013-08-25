@@ -4,7 +4,8 @@ menu = '''
             <li><a href="documents.html">DOCUMENTS</a></li>
             <li><a href="download.html">DOWNLOAD</a></li>
             <li><a href="participation.html">PARTICIPATION</a></li>
-            <li><a href="result.html">RESULT</a></li>
+            <li><a href="result.html">ONLINE QUAL.</a></li>
+            <li><a href="final.html">ONSITE FINAL</a></li>
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
           <div id='twitter'>
