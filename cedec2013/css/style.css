@@ -121,7 +121,7 @@ footer {
 
 #menu ul {
   width: 200px;
-  height: 185px;
+  height: 232px;
   margin: 20px 0;
   
   padding:0 25px 20px 20px;
@@ -157,3 +157,15 @@ footer {
 #menu li:active {
   list-style-image: url('../img/robot.png');
 }
+
+table.result {
+  border: solid 2px #000000;
+}
+table.result td,
+table.result th{
+  border: solid 1px #000000;
+}
+tr.header{
+  background-color: #cccccc;
+}
+
