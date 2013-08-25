@@ -99,6 +99,17 @@ footer {
   margin: 0;
 }
 
+.twitter-timeline{
+  float: left;
+}
+
+#script{
+  width:800px;
+  float: left;
+  font-family: 'Titillium Web', sans-serif; 
+  margin: 30px 0;
+}
+
 #menu{
   float:left;
   width:250px;
