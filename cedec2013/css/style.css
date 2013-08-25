@@ -121,7 +121,7 @@ footer {
 
 #menu ul {
   width: 200px;
-  height: 185px;
+  height: 232px;
   margin: 20px 0;
   
   padding:0 25px 20px 20px;
@@ -130,7 +130,7 @@ footer {
   border-color:#990000;
   
   list-style-type: none;
-  list-style-image: url('../img/none.png');
+  list-style-image: url('../img/blank.png');
 }
 
 #menu li {
@@ -157,3 +157,21 @@ footer {
 #menu li:active {
   list-style-image: url('../img/robot.png');
 }
+
+table.result {
+  border: solid 2px #000000;
+}
+table.result tr{
+  text-align: center;
+}
+table.result th{
+  background-color: #cccccc;
+  border: solid 1px #000000;
+}
+table.result td{
+  border: solid 1px #000000;
+}
+table.result td.name{
+  text-align: left;
+}
+
