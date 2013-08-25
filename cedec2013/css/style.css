@@ -130,7 +130,7 @@ footer {
   border-color:#990000;
   
   list-style-type: none;
-  list-style-image: url('../img/none.png');
+  list-style-image: url('../img/blank.png');
 }
 
 #menu li {
@@ -161,11 +161,17 @@ footer {
 table.result {
   border: solid 2px #000000;
 }
-table.result td,
+table.result tr{
+  text-align: center;
+}
 table.result th{
+  background-color: #cccccc;
   border: solid 1px #000000;
 }
-tr.header{
-  background-color: #cccccc;
+table.result td{
+  border: solid 1px #000000;
+}
+table.result td.name{
+  text-align: left;
 }
 
