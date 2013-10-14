@@ -2,8 +2,12 @@ userNames = ["iskwkn","uwi","sy","R.Kuzumi","b_head","niwa","hasi","yhrin","bell
 playerNames = ["todo takatora","Wall Cult","test","kuzumi","B_head:ColonizeAI","TEST_A","hasi","yhrin","yai","henteko","SettlerX"]
 
 writePage = (result) ->
-  text = '''
+  formText = "<input type='radio' name='team' value='all' checked>all\n"
+  for name in userNames
+    formText += "<input type='radio' name='team' value=#{name}>#{name}\n"
+  text = """
   <h2>Game</h2>
+    <p><form>Player #{formText}</form></p>
     <table class='result'>
       <tr class='header'>
         <th>Game</th>
@@ -12,7 +16,7 @@ writePage = (result) ->
         <th>AI Name</th>
         <th>Score</th>
         <th>Replay</th>
-      </tr>'''
+      </tr>"""
 
   gameId = 0
   for index of result

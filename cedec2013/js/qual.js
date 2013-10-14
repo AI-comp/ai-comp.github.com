@@ -7,9 +7,14 @@ userNames = ["iskwkn", "uwi", "sy", "R.Kuzumi", "b_head", "niwa", "hasi", "yhrin
 playerNames = ["todo takatora", "Wall Cult", "test", "kuzumi", "B_head:ColonizeAI", "TEST_A", "hasi", "yhrin", "yai", "henteko", "SettlerX"];
 
 writePage = function(result) {
-  var game, gameId, i, index, player, rank, rankName, replay, replayLink, text, _i;
+  var formText, game, gameId, i, index, name, player, rank, rankName, replay, replayLink, text, _i, _j, _len;
 
-  text = '<h2>Game</h2>\n  <table class=\'result\'>\n    <tr class=\'header\'>\n      <th>Game</th>\n      <th>Rank</th>\n      <th>Name</th>\n      <th>AI Name</th>\n      <th>Score</th>\n      <th>Replay</th>\n    </tr>';
+  formText = "<input type='radio' name='team' value='all' checked>all\n";
+  for (_i = 0, _len = userNames.length; _i < _len; _i++) {
+    name = userNames[_i];
+    formText += "<input type='radio' name='team' value=" + name + ">" + name + "\n";
+  }
+  text = "<h2>Game</h2>\n  <p><form>Player " + formText + "</form></p>\n  <table class='result'>\n    <tr class='header'>\n      <th>Game</th>\n      <th>Rank</th>\n      <th>Name</th>\n      <th>AI Name</th>\n      <th>Score</th>\n      <th>Replay</th>\n    </tr>";
   gameId = 0;
   for (index in result) {
     ++gameId;
@@ -19,7 +24,7 @@ writePage = function(result) {
     player = [];
     replay = game.file;
     replayLink = "<a href='applet/" + (replay.substring(replay.indexOf('/') + 1, replay.indexOf('.'))) + ".html'>replay</a>";
-    for (i = _i = 0; _i < 3; i = ++_i) {
+    for (i = _j = 0; _j < 3; i = ++_j) {
       player[i] = {};
       player[i].name = userNames[playerNames.indexOf(game.names[rank[i]])];
       player[i].aiName = game.names[rank[i]];
