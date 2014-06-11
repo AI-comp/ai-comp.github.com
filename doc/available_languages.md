@@ -6,7 +6,7 @@ $ gcc --version
 gcc (Ubuntu 4.8.2-19ubuntu1) 4.8.2
 ```
 
-## C++ (g++ 4.8.2)
+## C++
 ```
 $ g++ --version
 g++ (Ubuntu 4.8.2-19ubuntu1) 4.8.2
@@ -35,7 +35,7 @@ Apache Maven 3.0.5
 Maven home: /usr/share/maven
 ```
 
-## C# (Mono 2.10.8)
+## C#
 ```
 $ mono -V
 Mono JIT compiler version 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1)
