@@ -93,3 +93,14 @@ footer {
   color #ffffff;
 }
 
+.banner {
+  width: 540px;
+  height: 110px;
+  background: #000;
+  font-size: 48px;
+  font-family: 'Prosto One', cursive;
+  color: #FF69B4;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
