@@ -3,6 +3,7 @@ menu = '''
             <li><a href="index.html">INFORMATION</a></li>
             <li><a href="documents.html">DOCUMENTS</a></li>
             <li><a href="download.html">DOWNLOAD</a></li>
+            <li><a href="participation.html">PARTICIPATION</a></li>
           </ul>
           <div id='twitter'>
 <a class="twitter-timeline" href="https://twitter.com/search?q=%23cedecai" data-widget-id="357200114659508224">#cedecai に関するツイート</a>
