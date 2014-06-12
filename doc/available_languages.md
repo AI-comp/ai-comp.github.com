@@ -1,4 +1,4 @@
-# Languages Available on Registration Server
+# Languages Available on Contest Server
 
 ## C
 ```
