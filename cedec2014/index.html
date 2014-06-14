@@ -1,57 +1,67 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
+<html lang="ja"> 
+  <head> 
     <meta charset="UTF-8">
-    <link rel=stylesheet type="text/css" href="css/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:600' rel='stylesheet' type='text/css'>
-    <title>CEDEC 2014 AI CHALLENGE</title>
+    <link rel=stylesheet type="text/css" href="./style/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>CEDEC 2014 AI Challenge</title>
   </head>
+  <body>
 
-  <body class='cedec2013'>
-    <div class="page">
-      <header>
-      <h1>CEDEC 2014 AI CHALLENGE</h1>
-      </header>
-      <div id='contents'>
-        <div id='menu'><script src='js/menu.js'></script></div>
-        
-        <div id='main'>
-          <section id='information'>
-            <h2>INFORMATION</h2>
-            <p>国内最大のコンピュータエンターテイメント開発者向けカンファレンス「CEDEC2014」にて、
-            学生・社会人を問わず、すべての方を対象としたゲームAIのプログラミングコンテストを開催します！
-            6月11日より<a href="http://arena.ai-comp.net/">オンライン対戦システム</a>を公開しています！是非、遊んでみてください！
-            </p>
-          </section>
+    <div id='description'>
+      <h1><a href='#top'>AI-Lovers</a></h1>
+      <p>株取引、広告枠、ありとあらゆる商品</p>
+      <p>すべての取引がアルゴリズムによって行われる中</p>
+      <p>最後に自動化された"マッチング"は恋愛市場だった</p>
+    </div>
 
-          <section id='schedule'>
-            <h2>SCHEDULE</h2>
-            <table>
-              <tr> <td id='date'>2014/08 上旬</td> <td>予選用プログラム締切</td></tr>
-              <tr> <td id='date'>2014/08 上旬</td> <td>予選結果発表</td></tr>
-              <tr> <td id='date'>2014/08 下旬</td> <td>決勝用プログラム締切</td></tr>
-              <tr> <td id='date'>2014/09/02-04</td> <td>決勝</td></tr>
-            </table>
-          </section>
-          
-          <section id="related">
-            <h2>RELATED LINKS</h2>
-            <p><a href="http://cedec.cesa.or.jp/2014/">CEDEC2014</a></p>
-          </section>
+    <div id='top' class='box'>
+      <h1>AI-Lovers</h1>
+      <h1 id='cedec'>in CEDEC 2014</h1>
+    </div>
 
-          <section id="contact">
-            <h2>CONTACT</h2>
-            <p>ai-comp@googlegroups.com</p>
-          </section>
-        </div>
+
+    <div id='about' class='box'>
+      <h2>What's AI-Lovers</h2>
+
+      <p>国内最大のコンピュータエンターテイメント開発者向けカンファレンス<br>「CEDEC2014」にて、学生・社会人を問わず、すべての方を対象とした<br>ゲームAIのプログラミングコンテストを開催します！ </p>
+      <p>6月11日よりオンライン対戦システムを公開しています！<br>是非、遊んでみてください！</p>
+
+      <h2>Schedule</h2>
+      <div id='schedule-content'>
+        <p><span class='date'>2014/08 上旬</span>  予選用プログラム締切</p>
+        <p><span class='date'>2014/08 上旬</span>  予選結果発表</p>
+        <p><span class='date'>2014/08 下旬</span>  決勝用プログラム締切</p>
+        <p><span class='date'>2014/09/02-04</span> 決勝</p>
       </div>
 
-      <div class="clear"><hr /></div>
-
-      <footer>
-      <p>Copyright © <a href="http://www.ai-comp.net/">AI-COMP</a> All Rights Reserved</p>
-      </footer>
     </div>
+
+    <div id='challenge' class='box'>
+      <h2>Rules</h2>
+      <p><a href='https://github.com/AI-comp/AILovers/blob/master/Rule.md'>Rule.md</a></p>
+      <h2>Local Execution Environment</h2>
+      <p><a href='https://github.com/AI-comp/AILovers/archive/v1.0.0.zip'>AI Lovers 1.0.0</a></p>
+      <p>実行には<a href='nodejs.org'>node.js</a>が必要です</p>
+      <h2>Source Repository</h2>
+      <p><a href='https://github.com/AI-comp/AILovers'>github.com/AI-comp/AILovers</a></p>
+      <h2>Contest Server</h2>
+      <p><a href='http://arena.ai-comp.net/'>arena.ai-comp.net/</a></p>
+    </div>
+
+    <ul id='menu'>
+      <li id='menu-about'><a href='#about'>About</a></li>
+      <li id='menu-challenge'><a href='#challenge'>Challenge</a></li>
+    </ul>
+
+
+    <footer>
+      <p>Copyright © AI-COMP All Rights Reserved</p>
+    </footer>
+
   </body>
 </html>
+
+
 
