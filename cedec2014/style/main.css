@@ -2,6 +2,7 @@
   font-family: 'Computer Love';
   src: url('../fonts/COMPUTER LOVE.ttf');
 }
+
 div#description {
   position: absolute;
   top: 0px;
@@ -45,7 +46,7 @@ div.box {
   padding: 10px;
   top: 0px;
   width: 800px;
-  height: 560px;
+  height: 520px;
   margin: 0 auto;
   display: none;
   text-align: center;
@@ -107,6 +108,7 @@ h1 a {
 }
 
 footer {
+  font-size: 14px;
   text-align: right;
 }
 
