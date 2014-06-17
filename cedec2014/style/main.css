@@ -6,6 +6,7 @@
 div#description {
   position: absolute;
   top: 0px;
+  z-index: 1;
 }
 div#description h1 {
   display: none;
