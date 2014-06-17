@@ -80,9 +80,9 @@ li {
   list-style-type: none;
   font-family: 'Computer Love', serif;
   cursor: pointer;
-  display: box;
   display: -webkit-box;
   display: -moz-box;
+  display: box;
 }
 
 .box a {
