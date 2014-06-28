@@ -82,11 +82,17 @@ Python 3.4.0
 ## PHP
 ```
 $ php5 --version
-PHP 5.5.9-1ubuntu4 (cli) (built: Apr  9 2014 17:11:57)
+PHP 5.5.9-1ubuntu4.2 (cli) (built: Jun 25 2014 17:17:37)
 ```
 
 ## Haskell
 ```
 $ ghc --version
 The Glorious Glasgow Haskell Compilation System, version 7.6.3
+```
+
+## JavaScript
+```
+$ node -v
+v0.10.25
 ```
