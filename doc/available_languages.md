@@ -35,7 +35,7 @@ Apache Maven 3.0.5
 Maven home: /usr/share/maven
 ```
 
-## C#
+<h2>C#</h2>
 ```
 $ mono -V
 Mono JIT compiler version 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1)
