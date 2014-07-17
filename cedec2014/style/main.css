@@ -65,9 +65,8 @@ p span.date {
 ul {
   margin: 30px auto 30px auto;
   width: 320px;
-  display: box;
   display: -webkit-box;
-  display: -moz-box;
+  display: box;
   display: hide;
 }
 
@@ -82,7 +81,6 @@ li {
   cursor: pointer;
   display: -webkit-box;
   display: -moz-box;
-  display: box;
 }
 
 .box a {
