@@ -36,12 +36,6 @@ div.box h2{
   margin: 10px;
 }
 
-div.box h1#cedec {
-  margin: auto;
-  padding: auto;
-  font-size: 36px;
-}
-
 div.box img {
   margin: 240px auto 10px auto;
   text-align: center;
