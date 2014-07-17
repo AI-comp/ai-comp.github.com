@@ -42,11 +42,16 @@ div.box h1#cedec {
   font-size: 36px;
 }
 
+div.box img {
+  margin: 240px auto 10px auto;
+  text-align: center;
+}
+
 div.box {
   position: relative;
   padding: 10px;
   top: 0px;
-  width: 800px;
+  width: auto;
   height: 520px;
   margin: 0 auto;
   display: none;
