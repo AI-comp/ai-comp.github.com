@@ -1,6 +1,6 @@
 コンテストへの参加方法
 
-コンテストに参加するには、AI-COMP Contest Server[http://arena.ai-comp.net/]でユーザー登録をして、AIを投稿する必要があります。予選・決勝の詳細なルールはこちら[TBD]を参照してください。以下では、スターターキットを使用して自分のマシンでAIを作成したのち、オンライン対戦システムでAIを投稿するまでの流れを簡単に説明します。
+コンテストに参加するためには、AI-COMP Contest Server[http://arena.ai-comp.net/]でユーザー登録をして、AIを投稿する必要があります。予選・決勝の詳細なルールはこちら[TBD]を参照してください。以下で、スターターキットを使用して自分のマシンでAIを作成したのち、オンライン対戦システムでAIを投稿するまでの流れを簡単に説明します。
 
 スターターキットを使って自分のマシンでAIを作成する
 	1. スターターキット[TBD]をダウンロード・解凍します。
@@ -11,5 +11,5 @@ Contest ServerでAIを投稿する
 	1. http://arena.ai-comp.net/ にアクセスします。
 	2. 右上の「Signup」からユーザー登録をします。
 	3. トップページの「Current Contest」→「AI Lovers CEDEC AI Challenge 2014」、または画面上部の「Contests」→「CEDEC AI Challenge 2014」から、コンテストページに移動します。
-	4. 「Submit an AI」タブから作成したAIを投稿します。AIを投稿すると「My Submissions」タブに飛ばされます。
-	5. しばらくしてページを更新すると、「Build Status」が「COMPILED」になるので、「COMPILED」をクリックします。「Replay」の「Watch」を押して対戦の結果を確認しましょう。
+	4. 「Submit an AI」タブから作成したAIを投稿します。AIを投稿すると「My Submissions」タブが表示されます。
+	5. しばらくしてページをF5キーで更新すると、「Build Status」が「COMPILED」になります。「COMPILED」をクリックすると、対戦結果の一覧が表示されます。「Replay」の「Watch」を押して対戦結果を確認しましょう。
