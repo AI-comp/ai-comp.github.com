@@ -7,6 +7,7 @@ $(document).ready( ->
   $('#game-rules').load('./game-rules.html')
   $('#play').load('./play.html')
   $('#contest-rules').load('./contest-rules.html')
+  $('#links').load('./links.html')
 
   innerLink = (activeBox)->
     $('.box').hide()
