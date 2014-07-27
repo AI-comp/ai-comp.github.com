@@ -25,7 +25,11 @@ $(document).ready(function() {
     return $('div.expand').slideToggle();
   });
   clickLink = function() {
-    return $('#menu-' + window.location.hash.substring(1)).click();
+    var hash;
+    hash = window.location.hash;
+    if (hash !== '') {
+      return $('#menu-' + hash.substring(1)).click();
+    }
   };
   $(window).bind('hashchange', function() {
     return clickLink();

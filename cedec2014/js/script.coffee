@@ -27,7 +27,9 @@ $(document).ready( ->
   )
   
   clickLink = ->
-    $('#menu-' + window.location.hash.substring(1)).click()
+    hash = window.location.hash
+    if hash isnt ''
+      $('#menu-' + hash.substring(1)).click()
 
   $(window).bind('hashchange', ->
     clickLink()
