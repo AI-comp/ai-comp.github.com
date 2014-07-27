@@ -36,11 +36,11 @@ div.box h2{
   margin: 10px auto;
 }
 
-/* #logo {
-  margin: 240px auto 10px auto;
-  text-align: center;
+#logo {
+  width: 100%;
+  margin: 0px auto 50px auto;
 }
- */
+
 div.box {
   position: relative;
   padding: 10px;
