@@ -1,7 +1,10 @@
 $(document).ready( ->
   $('#top').fadeIn()
   $('ul#menu').fadeIn()
+  $('#about').load('./about.html')
   $('#game-rules').load('./game-rules.html')
+  $('#play').load('./play.html')
+  $('#contest-rules').load('./contest-rules.html')
 
   innerLink = (activeBox)->
     $('.box').hide()

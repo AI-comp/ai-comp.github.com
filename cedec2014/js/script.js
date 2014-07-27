@@ -3,7 +3,10 @@ $(document).ready(function() {
   var innerLink;
   $('#top').fadeIn();
   $('ul#menu').fadeIn();
+  $('#about').load('./about.html');
   $('#game-rules').load('./game-rules.html');
+  $('#play').load('./play.html');
+  $('#contest-rules').load('./contest-rules.html');
   innerLink = function(activeBox) {
     $('.box').hide();
     return $(activeBox).show(1, function() {
