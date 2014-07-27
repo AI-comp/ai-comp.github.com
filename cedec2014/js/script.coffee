@@ -8,20 +8,13 @@ $(document).ready( ->
   
   $(".fancybox").fancybox()
 
-  innerLink = (activeBox) ->
-    $('.box').hide()
-    $(activeBox).show(1, ->
-      window.scrollTo(0, 0)
-    )
-
-  $('ul#menu li').click( ->
-    activeBox = $(@).find('a').attr('href')
-    innerLink(activeBox)
-  )
-  
   $('a.expand').click( ->
     $('div.expand').slideToggle()
   )
+
+  innerLink = (activeBox) ->
+    $('.box').hide()
+    $(activeBox).fadeIn()
   
   clickLink = ->
     hash = window.location.hash

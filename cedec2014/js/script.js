@@ -8,20 +8,13 @@ $(document).ready(function() {
   $('#contest-rules').load('./contest-rules.html');
   $('#links').load('./links.html');
   $(".fancybox").fancybox();
-  innerLink = function(activeBox) {
-    $('.box').hide();
-    return $(activeBox).show(1, function() {
-      return window.scrollTo(0, 0);
-    });
-  };
-  $('ul#menu li').click(function() {
-    var activeBox;
-    activeBox = $(this).find('a').attr('href');
-    return innerLink(activeBox);
-  });
   $('a.expand').click(function() {
     return $('div.expand').slideToggle();
   });
+  innerLink = function(activeBox) {
+    $('.box').hide();
+    return $(activeBox).fadeIn();
+  };
   clickLink = function() {
     var hash;
     hash = window.location.hash;
