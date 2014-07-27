@@ -1,7 +1,4 @@
 $(document).ready( ->
-  $('#top').fadeIn()
-  $('ul#menu').fadeIn()
-
   $('#top').load('./top.html')
   $('#screenshots').load('./screenshots.html')
   $('#game-rules').load('./game-rules.html')
@@ -29,10 +26,17 @@ $(document).ready( ->
   clickLink = ->
     hash = window.location.hash
     if hash isnt ''
-      $('#menu-' + hash.substring(1)).click()
+      innerLink(hash)
 
   $(window).bind('hashchange', ->
     clickLink()
   )
-  clickLink()
+
+  if window.location.hash is ''
+    $('#top').fadeIn('slow')
+    $('ul#menu').hide(0, ->
+      $('ul#menu').fadeIn('slow')
+    )
+  else
+    clickLink()
 )
