@@ -8,8 +8,10 @@ $(document).ready( ->
   $('#play').load('./play.html')
   $('#contest-rules').load('./contest-rules.html')
   $('#links').load('./links.html')
+  
+  $(".fancybox").fancybox()
 
-  innerLink = (activeBox)->
+  innerLink = (activeBox) ->
     $('.box').hide()
     $(activeBox).show(1, ->
       window.scrollTo(0, 0)
@@ -32,5 +34,11 @@ $(document).ready( ->
     $('div.expand').slideToggle()
   )
   
-  $(".fancybox").fancybox()
+  clickLink = ->
+    $('#menu-' + window.location.hash.substring(1)).click()
+
+  $(window).bind('hashchange', ->
+    clickLink()
+  )
+  clickLink()
 )
