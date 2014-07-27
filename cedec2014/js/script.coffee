@@ -1,6 +1,8 @@
 $(document).ready( ->
   $('#top').fadeIn()
   $('ul#menu').fadeIn()
+  $('#game-rules').load('./game-rules.html')
+
   innerLink = (activeBox)->
     $('.box').hide()
     $(activeBox).fadeIn()
@@ -17,6 +19,7 @@ $(document).ready( ->
     activeBox = $(@).find('a').attr('href')
     innerLink(activeBox)
   )
+  
   $('a.expand').click( ->
     $('div.expand').slideToggle()
   )

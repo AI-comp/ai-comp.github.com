@@ -3,6 +3,7 @@ $(document).ready(function() {
   var innerLink;
   $('#top').fadeIn();
   $('ul#menu').fadeIn();
+  $('#game-rules').load('./game-rules.html');
   innerLink = function(activeBox) {
     $('.box').hide();
     return $(activeBox).fadeIn();
