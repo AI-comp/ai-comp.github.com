@@ -6,10 +6,8 @@ $(document).ready(function() {
   $('#game-rules').load('./game-rules.html');
   innerLink = function(activeBox) {
     $('.box').hide();
-    return $(activeBox).fadeIn({
-      complete: function() {
-        return window.scrollTo(0, 0);
-      }
+    return $(activeBox).show(1, function() {
+      return window.scrollTo(0, 0);
     });
   };
   $('ul#menu li').click(function() {
