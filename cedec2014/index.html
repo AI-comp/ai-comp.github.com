@@ -2,8 +2,11 @@
 <html lang="ja"> 
   <head> 
     <meta charset="UTF-8">
-    <link rel=stylesheet type="text/css" href="./style/main.css">
+    <link rel=stylesheet type="text/css" href="./css/main.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./fancyBox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="./fancyBox/jquery.fancybox.pack.js"></script>
+
     <script src="js/script.js"></script>
     <title>AI Lovers: CEDEC AI Challenge 2014</title>
   </head>
@@ -16,16 +19,20 @@
 
     <ul id='menu'>
       <li id='menu-about' class='menu'><a href='#about' class='inner'>About</a></li>
-      <li id='menu-game-rules' class='menu'><a href='#game-rules' class='inner'>Game Rules</a></li>
+      <li id='menu-screenshots' class='menu'><a href='#screenshots' class='inner'>Screenshots</a></li>
+      <li id='menu-game-rules' class='menu'><a href='#game-rules' class='inner'>Rules</a></li>
       <li id='menu-play' class='menu'><a href='#play' class='inner'>Play</a></li>
-      <li id='menu-contest-rules' class='menu'><a href='#contest-rules' class='inner'>Contest Rules</a></li>
+      <li id='menu-contest-rules' class='menu'><a href='#contest-rules' class='inner'>Contest</a></li>
     </ul>
 
     <div id='top' class='box compact'>
-      <img src='img/logo_large.png'>
+      <img id='logo' src='img/logo_large.png'>
     </div>
 
     <div id='about' class='box compact'>
+    </div>
+
+    <div id='screenshots' class='box compact'>
     </div>
     
     <div id='game-rules' class='box'>

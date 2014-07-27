@@ -36,7 +36,7 @@ div.box h2{
   margin: 10px auto;
 }
 
-div.box img {
+#logo {
   margin: 240px auto 10px auto;
   text-align: center;
 }
@@ -118,3 +118,6 @@ footer {
   text-align: right;
 }
 
+div#screenshots img {
+  margin: 20px;
+}

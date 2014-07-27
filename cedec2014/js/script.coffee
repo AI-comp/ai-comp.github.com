@@ -1,7 +1,9 @@
 $(document).ready( ->
   $('#top').fadeIn()
   $('ul#menu').fadeIn()
+
   $('#about').load('./about.html')
+  $('#screenshots').load('./screenshots.html')
   $('#game-rules').load('./game-rules.html')
   $('#play').load('./play.html')
   $('#contest-rules').load('./contest-rules.html')
@@ -28,4 +30,6 @@ $(document).ready( ->
   $('a.expand').click( ->
     $('div.expand').slideToggle()
   )
+  
+  $(".fancybox").fancybox()
 )

@@ -4,6 +4,7 @@ $(document).ready(function() {
   $('#top').fadeIn();
   $('ul#menu').fadeIn();
   $('#about').load('./about.html');
+  $('#screenshots').load('./screenshots.html');
   $('#game-rules').load('./game-rules.html');
   $('#play').load('./play.html');
   $('#contest-rules').load('./contest-rules.html');
@@ -27,7 +28,8 @@ $(document).ready(function() {
     activeBox = $(this).find('a').attr('href');
     return innerLink(activeBox);
   });
-  return $('a.expand').click(function() {
+  $('a.expand').click(function() {
     return $('div.expand').slideToggle();
   });
+  return $(".fancybox").fancybox();
 });
