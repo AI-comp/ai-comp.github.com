@@ -5,7 +5,9 @@ $(document).ready( ->
 
   innerLink = (activeBox)->
     $('.box').hide()
-    $(activeBox).fadeIn()
+    $(activeBox).fadeIn({complete: ->
+      window.scrollTo(0, 0)
+    })
 
   $('ul#menu li').click( ->
     $('#description p').hide()
