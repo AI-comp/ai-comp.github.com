@@ -33,7 +33,7 @@ div.box h1 {
 div.box h2{
   font-size: 32px;
   font-family: 'Computer Love', serif;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 div.box img {
@@ -45,11 +45,14 @@ div.box {
   position: relative;
   padding: 10px;
   top: 0px;
-  width: auto;
-  height: 520px;
+  width: 80%;
   margin: 0 auto;
   display: none;
+}
+
+div.compact {
   text-align: center;
+  height: 520px;
 }
 
 div#schedule-content {
@@ -58,23 +61,28 @@ div#schedule-content {
   text-align: left;
 }
 
+div.expand {
+  display: none;
+  font-size: 14px;
+}
+
 p span.date {
   font-weight: bold;
 }
 
-ul {
+ul#menu {
   margin: 30px auto 30px auto;
-  width: 320px;
+  text-align: center;
   display: -webkit-box;
   display: box;
   display: hide;
 }
 
-li {
+li.menu {
   font-size: 32px;
   text-align: center;
   margin: 20px;
-  width: 120px;
+  width: 200px;
   height: 40px;
   list-style-type: none;
   font-family: 'Computer Love', serif;

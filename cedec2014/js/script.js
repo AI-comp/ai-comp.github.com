@@ -14,11 +14,14 @@ $(document).ready(function() {
     activeBox = $(this).find('a').attr('href');
     return innerLink(activeBox);
   });
-  return $('#description h1').click(function() {
+  $('#description h1').click(function() {
     var activeBox;
     $('#description p').fadeIn();
     $('#description h1').hide();
     activeBox = $(this).find('a').attr('href');
     return innerLink(activeBox);
+  });
+  return $('a.expand').click(function() {
+    return $('div.expand').slideToggle();
   });
 });

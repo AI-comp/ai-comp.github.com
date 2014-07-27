@@ -17,4 +17,7 @@ $(document).ready( ->
     activeBox = $(@).find('a').attr('href')
     innerLink(activeBox)
   )
+  $('a.expand').click( ->
+    $('div.expand').slideToggle()
+  )
 )
