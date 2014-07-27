@@ -3,7 +3,7 @@ $(document).ready(function() {
   var clickLink, innerLink;
   $('#top').fadeIn();
   $('ul#menu').fadeIn();
-  $('#about').load('./about.html');
+  $('#top').load('./top.html');
   $('#screenshots').load('./screenshots.html');
   $('#game-rules').load('./game-rules.html');
   $('#play').load('./play.html');
@@ -18,15 +18,6 @@ $(document).ready(function() {
   };
   $('ul#menu li').click(function() {
     var activeBox;
-    $('#description p').hide();
-    $('#description h1').show();
-    activeBox = $(this).find('a').attr('href');
-    return innerLink(activeBox);
-  });
-  $('#description h1').click(function() {
-    var activeBox;
-    $('#description p').fadeIn();
-    $('#description h1').hide();
     activeBox = $(this).find('a').attr('href');
     return innerLink(activeBox);
   });

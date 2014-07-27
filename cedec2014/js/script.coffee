@@ -2,7 +2,7 @@ $(document).ready( ->
   $('#top').fadeIn()
   $('ul#menu').fadeIn()
 
-  $('#about').load('./about.html')
+  $('#top').load('./top.html')
   $('#screenshots').load('./screenshots.html')
   $('#game-rules').load('./game-rules.html')
   $('#play').load('./play.html')
@@ -18,14 +18,6 @@ $(document).ready( ->
     )
 
   $('ul#menu li').click( ->
-    $('#description p').hide()
-    $('#description h1').show()
-    activeBox = $(@).find('a').attr('href')
-    innerLink(activeBox)
-  )
-  $('#description h1').click( ->
-    $('#description p').fadeIn()
-    $('#description h1').hide()
     activeBox = $(@).find('a').attr('href')
     innerLink(activeBox)
   )
