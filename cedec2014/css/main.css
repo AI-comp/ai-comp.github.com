@@ -76,7 +76,7 @@ ul#menu {
   text-align: center;
   display: -webkit-box;
   display: box;
-  display: hide;
+  display: -ms-flexbox;
 }
 
 li.menu {
