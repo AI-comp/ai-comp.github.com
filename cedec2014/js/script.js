@@ -20,7 +20,7 @@ $(document).ready(function() {
   clickLink = function() {
     var hash;
     hash = window.location.hash;
-    if (hash !== '') {
+    if (hash !== '' && $(hash).length > 0) {
       return innerLink(hash);
     }
   };

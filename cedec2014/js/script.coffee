@@ -18,7 +18,7 @@ $(document).ready( ->
   
   clickLink = ->
     hash = window.location.hash
-    if hash isnt ''
+    if hash isnt '' and $(hash).length > 0
       innerLink(hash)
 
   $(window).bind('hashchange', ->
