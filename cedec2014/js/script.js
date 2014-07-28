@@ -2,15 +2,17 @@
 $(document).ready(function() {
   var clickLink, innerLink;
   $('#top').load('./top.html');
-  $('#screenshots').load('./screenshots.html');
+  $('#screenshots').load('./screenshots.html', function() {
+    return $(".fancybox").fancybox();
+  });
   $('#game-rules').load('./game-rules.html');
   $('#play').load('./play.html');
-  $('#contest-rules').load('./contest-rules.html');
-  $('#links').load('./links.html');
-  $(".fancybox").fancybox();
-  $('a.expand').click(function() {
-    return $('div.expand').slideToggle();
+  $('#contest-rules').load('./contest-rules.html', function() {
+    return $('a.expand').click(function() {
+      return $('div.expand').slideToggle();
+    });
   });
+  $('#links').load('./links.html');
   innerLink = function(activeBox) {
     $('.box').hide();
     return $(activeBox).fadeIn();

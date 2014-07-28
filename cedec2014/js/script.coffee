@@ -1,16 +1,16 @@
 $(document).ready( ->
   $('#top').load('./top.html')
-  $('#screenshots').load('./screenshots.html')
+  $('#screenshots').load('./screenshots.html', ->
+    $(".fancybox").fancybox()
+  )
   $('#game-rules').load('./game-rules.html')
   $('#play').load('./play.html')
-  $('#contest-rules').load('./contest-rules.html')
-  $('#links').load('./links.html')
-  
-  $(".fancybox").fancybox()
-
-  $('a.expand').click( ->
-    $('div.expand').slideToggle()
+  $('#contest-rules').load('./contest-rules.html', ->
+    $('a.expand').click( ->
+      $('div.expand').slideToggle()
+    )
   )
+  $('#links').load('./links.html')
 
   innerLink = (activeBox) ->
     $('.box').hide()
