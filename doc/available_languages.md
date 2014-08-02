@@ -79,6 +79,12 @@ $ python3 -V
 Python 3.4.0
 ```
 
+## Perl
+```
+$ perl -v
+This is perl 5, version 18, subversion 2 (v5.18.2) built for x86_64-linux-gnu-thread-multi
+```
+
 ## PHP
 ```
 $ php5 --version
