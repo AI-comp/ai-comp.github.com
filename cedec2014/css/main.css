@@ -54,10 +54,17 @@ div.compact {
   text-align: center;
 }
 
-div#schedule-content {
-  width: 320px;
+div.date {
   margin: auto;
   text-align: left;
+}
+
+div#schedule-content {
+  width: 250px;
+}
+
+div#history {
+  width: 500px;
 }
 
 div.expand {
