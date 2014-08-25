@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
   $('#game-rules').load('./game-rules.html');
   $('#play').load('./play.html');
-  $('#contest-rules').load('./contest-rules.html', function() {
+  $('#contest').load('./contest.html', function() {
     return $('a.expand').click(function() {
       return $('div.expand').slideToggle();
     });

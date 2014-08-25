@@ -5,7 +5,7 @@ $(document).ready( ->
   )
   $('#game-rules').load('./game-rules.html')
   $('#play').load('./play.html')
-  $('#contest-rules').load('./contest-rules.html', ->
+  $('#contest').load('./contest.html', ->
     $('a.expand').click( ->
       $('div.expand').slideToggle()
     )
