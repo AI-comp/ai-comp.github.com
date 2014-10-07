@@ -5,12 +5,12 @@ body {
   margin: 0;
   padding: 0;
   color: #000000;
-  background: #444 url('../img/map48.png');
+  background: #222;
 }
 
-h1,h2,h3,h4,h5 {
-  font-family: 'Keania One', cursive;
-  color: #310;
+h1,h2,h3,h4,h5,li,a,p {
+  font-family: 'Consolas', cursive;
+  color: #DDD;
 }
 
 h1 {
@@ -19,19 +19,19 @@ h1 {
   font-size: 400%;
 }
 
-h2{
+h2 {
   font-size: 200%;
 }
 
-h3{
+h3 {
   font-size: 150%;
 }
 
-h4{
+h4 {
   font-size: 120%;
 }
 
-h4{
+h5 {
   font-size: 100%;
 }
 
@@ -39,12 +39,20 @@ ul {
 
 }
 
+li {
+  color: #DDD;
+}
+
+a {
+
+}
+
 .page{
   width: 800px;
   margin:20px auto;
   padding:0 20px 0 20px;
-  border: 3px solid #310;
-  background: #ddb;
+  border: 3px solid #DDD;
+  background: #222;
 }
 
 header {
