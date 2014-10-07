@@ -9,7 +9,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,li,a,p {
-  font-family: 'Consolas', cursive;
+  font-family: 'monaco', cursive;
   color: #DDD;
 }
 
