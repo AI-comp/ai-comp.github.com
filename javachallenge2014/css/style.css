@@ -43,9 +43,17 @@ li {
   color: #DDD;
 }
 
-a {
-
+a:link {
+  color: #F7B;
 }
+
+a:visited {
+  color: #29F;
+}
+
+a:active {color:#630;}
+a:hover {color:#630;}
+
 
 .page{
   width: 800px;
@@ -92,15 +100,10 @@ th {
   background : #310;
 }
 
-a:link {color:#420;}
-a:visited {color:#420;}
-a:active {color:#630;}
-a:hover {color:#630;}
-
 footer {
   margin : 0 -20px -18px -19px;
   padding : 0;
-  background : #310;
+  background : #666;
   color : #fff;
   text-align : center;
 }
